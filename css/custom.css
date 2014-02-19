@@ -1,0 +1,24 @@
+/* CSS Document */
+
+
+/* book style cover - effect shadow */
+.cover:after { content: ''; position:absolute; top:0; left:1px; width:2px; height:100%; background:rgba(0,0,0,.2); box-shadow:-3px 0 6px 0 rgba(0,0,0,.1), 3px 0 6px 0 rgba(0,0,0,.1), 1px 1px 2px 0 rgba(255,255,255,.5); }
+
+
+/* SCROLL SHADOWS TOP AND BOTTOM - reduces performance in firefox */
+/*.antiscroll-wrap:before { position: absolute; content: ""; z-index: 1;
+	width: 100%;
+	height: 40px;
+	top: 0;
+	left: 0;
+	pointer-events: none;
+	box-shadow: 0 20px 40px rgba(255,255,255, .5) inset;
+}
+.antiscroll-wrap:after { position: absolute; content: "";
+	width: 100%;
+	height: 40px;
+	bottom: 0;
+	left: 0;
+	pointer-events: none;
+	box-shadow: 0 -20px 40px rgba(255,255,255, .5) inset;
+}*/

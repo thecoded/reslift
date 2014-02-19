@@ -1,0 +1,15 @@
+/* MODERN STYLE */
+
+.content h2 { font-size: 2.7em; margin: .2em 0 0.8em 0; font-weight: 200; }
+.content h2:first-letter { padding: 0 10px; margin-right:4px; font-weight: 800; border-radius:4px; color:#fff; background: #333; }
+.content h3 { font-size: 1.4em; font-weight: 300; }
+
+h4.about-text { font-weight: 300; }
+.history-unit h4.work-time { background: #fff; }
+.portfolio-items .hentry p { border-bottom: none; }
+#filters .current a { padding: 2px 6px; border-bottom: none; border-radius:4px; color:#fff; text-shadow: none; background: #333; }
+#filters .current a, #filters .current a:hover { color:#fff; }
+
+/* PORTFOLIO */
+.portfolio-items .media-box { padding: 1px; }
+.portfolio-items .media-box:after, .portfolio-items .media-box:before { display: none; }

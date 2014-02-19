@@ -1,0 +1,10 @@
+
+.content h2 { font-weight: 300; font-size: 3em; margin: .2em 0 .8em 0; text-shadow: 1px 1px 0 #ccc, 2px 2px 0 #666, 3px 3px 0 #999;
+text-shadow:#eee -1px 1px 0,
+			#235479 -2px 2px 0,
+			#235479 -3px 3px 0;
+	}
+.content h3 { font-weight: 400; font-size: 1.4em;
+text-shadow:#fff -1px 1px 0,
+			#235479 -2px 2px 0;
+	}

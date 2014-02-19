@@ -1,0 +1,15 @@
+{
+    "name": "paypal/rest-api-sample-app-php",
+    "description": "Sample Pizza store app using PayPal's payment APIs",
+    "homepage": "https://github.com/paypal/rest-api-sample-app-php",
+    "config": {
+        "require-all": true
+    },
+    "require": {
+        "php": ">=5.3.0",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mysql": "*",
+        "paypal/rest-api-sdk-php" : "0.7.*"
+    }
+}

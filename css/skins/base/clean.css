@@ -1,0 +1,24 @@
+/* CLEAN STYLE */
+
+/* FONTS */
+@import url(http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic);
+
+/* HEADINGS */
+h2 { font-family: "Arvo", serif; }
+
+/* RESUME */
+.testo .text { background-color: transparent; border: 1px solid #ddd; }
+
+
+
+.content h3 span { display:inline-block; position:relative; padding: .2em 1em; letter-spacing: 1px; border: 1px dashed #ccc; }
+.content h3 { font-size: 1.0em; font-weight: 800; }
+.content h2 { font-weight: 800; }
+
+h4.about-text { font-weight: 300; }
+
+.content h2, .content h3 { position: relative; }
+.content h2:before { content: ""; position:absolute; top: 50%; left: 0; display: block; width: 100%; border-bottom: 1px solid #ccc; z-index: -1; }
+.content h2 span { font-weight: 800; padding: .2em .4em; color: #fff; background: #333; border-radius: 4px; }
+h4.about-text { font-weight: 300; }
+.label { font-weight: 800; padding:0; color: #333; background: none; border-bottom: 3px solid #333; }

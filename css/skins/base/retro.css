@@ -1,0 +1,39 @@
+/* RETRO STYLE */
+
+/* FONTS */
+@import url(http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic);
+@import url(http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic);
+ 
+/* BODY */
+body, input, textarea, select, button, html input[type="button"], input[type="reset"], input[type="submit"], .work-desc h5
+{ font-family: Lora, Georgia, "Times New Roman", Times, serif; }
+ 
+/* HEADINGS */
+h1, h2, h3
+{ font-family: "Arvo", serif; }
+
+/* General */
+.content h2 { font-size: 2.2em; }
+.content h2, .content h3 { position: relative; text-shadow: 0 1px 0 rgba(255,255,255, .8); }
+.content h2 span, .content h3 span { display:inline-block; position:relative; padding: .2em 1.6em; letter-spacing: 1px; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; }
+.content h3 { font-size: 1.15em; font-weight: 700; margin: 2.2em 0 2.4em 0; }
+.content h3 span { padding: .3em 0; letter-spacing: 2px; border-top: none; }
+
+/* Resume */
+.history-unit .work-desc h4, .service h4, .testo .text h4, .skill-unit h4 { font-size: .9em; font-weight: bold; }
+.skill-unit h4, .testo .text h4 span { font-weight: normal; }
+.testo .text h4 span { font-size: 0.9em; }
+.history-unit h4.work-time { border: none; background: #fff; border: 1px solid #ddd; }
+
+/* Portfolio */
+#filters li a { font-size: 1em; font-weight: 700; letter-spacing: 1px; }
+.portfolio-items .hentry h4 { font-weight: 700; }
+
+/* Content */
+.content h2 span { position: relative; font-weight: 700; }
+.content h2 span:before, .content h2 span:after, .content h3 span:before { font-family: FontAwesome; font-size: 15px; position: absolute; top: 1.4em; display: inline-block; font-weight: normal; text-align:left; font-style: normal; display: inline-block; text-decoration: inherit; }
+.content h2 span:before { left: 1.2em; }
+.content h2 span:after { right: 1.2em; }
+.content h2 span:before, .content h2 span:after { content: "\f005"; }
+.content h3 span:before { content: "\f02e"; top: auto; bottom: -14px; left: 50%; margin-left: -8px; }
+
