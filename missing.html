@@ -1126,6 +1126,7 @@
 
                 $('#printIcon').off('click');
                 $('#printIcon').on('click', function(){
+                    $('nav').hide();
                       $('#printIcon').hide();
                       r= $('.content').clone();
                        $('.rm-wrapper').hide()
@@ -1666,6 +1667,16 @@ allDataArr = {'userId':userId, 'fbId':fbId};
 
 
     })
+
+                    //update progress bars
+                       $('.progress').each(function(index){
+
+                      
+                        theId =$(this).attr('id');
+                        theVal = userDataArr[theId];
+                         $(this).css('width', theVal);
+
+                })
 
 
 
