@@ -23,6 +23,5 @@ Most images are stored here.
 CLOUD:
 Our PHP files are stored here for saving, retrieving and updating user activity. Our main table in the reslift database is userEdits, where all user edits are stored.
 
-
-
-
+CLOUD/CRON
+Needs improvement but can scrape Craigslist for job postings and save to DB... Soon to add other job boards.
