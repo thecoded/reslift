@@ -1757,7 +1757,7 @@ function publish(){
 
    
    var fbId = window.location.href.split('.com/');
-   fbId = parseInt(fbId[1]);
+   fbId = fbId[1];
    function updateUserInfo(response) {
      FB.api('/me', function(response) {
       response1 = response;

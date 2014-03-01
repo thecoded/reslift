@@ -243,8 +243,7 @@
 		if(width < 420) {
 			$('html').addClass('w420');	
 		} else {
-			$('html').addClass('w420');	
-			//$('html').removeClass('w420');		
+			$('html').removeClass('w420');		
 		}
 	}	
 	// ------------------------------
