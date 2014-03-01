@@ -403,12 +403,14 @@
 
             function showTut(){
                
+
                 setTimeout(function(){
+                        $('#login').animate({'opacity':'1'});
 
                         if(typeof fbId == "undefined"){
 
                             $('#tutorialText').fadeIn();
-                            $('#login').animate({'opacity':'1'});
+                          
                             return;
                         }
                     
