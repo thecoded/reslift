@@ -1,0 +1,7 @@
+
+/* INNER PAGE BG */
+.rm-wrapper > div > div { background: #eee url(../../../images/bckg/paper-bg/linedpaper.png) 0 0 repeat; }
+
+@media  (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 192dpi) { 
+	.rm-wrapper > div > div { background-image: url(../../../images/bckg/paper-bg/linedpaper_@2x.png); background-size: 412px 300px; }   
+}

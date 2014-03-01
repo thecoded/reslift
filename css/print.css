@@ -1,0 +1,57 @@
+/* Print Style Sheet */
+@media print {
+body {background:white; 
+     font-size:10pt; 
+     margin:0 }
+
+#content{ margin-left:0; 
+     float:none; 
+     width:auto }
+#content a { font-weight:bold;}
+#content{ margin-left:0; 
+     float:none; 
+     width:auto }
+#footer, .ad { display:none }
+h1, h2, h3, h4, h5, h6 { page-break-after:avoid; 
+     page-break-inside:avoid }
+h3 { margin-left:10px; 
+     margin-bottom:0px; 
+     padding-bottom:0px }
+blockquote, table, pre { page-break-inside:avoid }
+ul, ol, dl  { page-break-before:avoid }
+img { page-break-inside:avoid; 
+     page-break-after:avoid; }
+
+/* ------------------------------------------ 
+   ---------------------  SAFE MOD */
+.rm-container .rm-back, .rm-container.rm-open .rm-cover, .rm-container.rm-open .rm-right, .rm-container.rm-in .rm-cover, .rm-container.rm-in .rm-right, .rm-container.rm-in .rm-wrapper {
+	-webkit-transform: none !important;
+	-moz-transform: none !important;
+	-o-transform: none !important;
+	-ms-transform: none !important;
+	transform: none !important;
+	display: block !important;
+}
+
+.rm-container {
+	-webkit-perspective: 0px;
+	-moz-perspective: 0px;
+	-o-perspective: 0px;
+	-ms-perspective: 0px;
+	perspective: 0px; }
+.rm-wrapper { position: static; background: #fff; }
+.rm-close, .rm-overlay { display: none; }
+#header, .rm-button-open { display:none !important; }
+.rm-wrapper,
+.rm-wrapper > div { position: static; }
+body { width:auto; height:auto; overflow: visible; }
+.main { height:auto; }
+.page { height:auto; }
+.antiscroll-wrap { position:relative; top:auto; bottom:auto; left:auto; overflow:hidden; }
+.antiscroll-inner { position:relative; }
+#pages { position:relative !important; height:auto; }
+.rm-wrapper > div > div { position: static; background: #fff; }
+	 
+}
+
+

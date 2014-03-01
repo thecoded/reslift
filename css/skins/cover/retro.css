@@ -1,0 +1,19 @@
+.cover h1 { 
+	text-shadow: 
+		11px 12px 12px rgba(0,0,0,0.2), 
+		-1px -1px 1px #000000, 
+		1px 1px 0 #000000, 
+		3px 3px 0 #000000, 
+		4px 4px 0 #000000, 
+		5px 5px 0 #000000, 
+		6px 6px 0 #000000, 
+		7px 7px 0 #000000, 
+		8px 8px 0 #000000, 
+		9px 9px 0 #000000, 
+		10px 10px 0 #000000, 
+		11px 11px 0 #000000; }
+.cover h2, .cover h3 { 
+	text-shadow: 
+		-1px -1px 1px rgba(0,0,0,0.2), 
+		1px 1px 0 rgba(0,0,0,0.2), 
+		2px 2px 0 rgba(0,0,0,0.5); }
