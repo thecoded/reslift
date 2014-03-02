@@ -27,7 +27,6 @@ CLOUD/CRON
 Needs improvement but can scrape Craigslist for job postings and save to DB... Soon to add other job boards.
 
 == CONTRIBUTE ==
-Development guidelines
 
 1. Fork it (git clone git://github.com/thecoded/reslift.git)
 2. Create your feature branch (git checkout -b my-new-feature)
