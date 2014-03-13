@@ -1938,7 +1938,7 @@ allDataArr = {'userId':userId, 'fbId':fbId};
  } 
 
 
-function publish(){
+function finalize(){
      $('.rm-close').click();
     $('#cFb').hide();
     $('#login').append("<center><input type='text' value='http://reslift.com/"+response1['id']+"'  id='userURL' style='width:90%'></center>");
@@ -2028,7 +2028,7 @@ function goToMyPage(){
 
       $('#cFb').attr('src', 'save.png');
 
-      $('#cFb').attr('onClick', 'publish()');
+      $('#cFb').attr('onClick', 'finalize()');
       $('.rm-button-open').click();
       $('#versionIcon').fadeOut();
      
